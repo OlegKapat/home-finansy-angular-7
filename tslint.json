@@ -14,10 +14,10 @@
     "deprecation": {
       "severity": "warn"
     },
-    "eofline": true,
+    "eofline": false,
     "forin": true,
     "import-blacklist": [
-      true,
+      false,
       "rxjs/Rx"
     ],
     "import-spacing": true,
@@ -29,7 +29,7 @@
     "label-position": true,
     "max-line-length": [
       true,
-      140
+      200
     ],
     "member-access": false,
     "member-ordering": [
@@ -77,7 +77,7 @@
     "no-var-keyword": true,
     "object-literal-sort-keys": false,
     "one-line": [
-      true,
+      false,
       "check-open-brace",
       "check-catch",
       "check-else",
@@ -98,7 +98,7 @@
       "allow-null-check"
     ],
     "typedef-whitespace": [
-      true,
+      false,
       {
         "call-signature": "nospace",
         "index-signature": "nospace",
@@ -110,7 +110,7 @@
     "unified-signatures": true,
     "variable-name": false,
     "whitespace": [
-      true,
+      false,
       "check-branch",
       "check-decl",
       "check-operator",
